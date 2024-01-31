@@ -1,8 +1,12 @@
 ---
 layout: post
 title: App as Vehicle
+author: Caleb Jolliffe
 stamp: 01 · 24
-permalink: /vehicle/
+permalink: /app-as-vehicle/
+imagecard: vehicle.png
+handle: calebjolliffe
+xdesc: At the end of 2023, inspired by Steph Ango's file over app philosophy, I began taking control of my digital life. I ditched proprietary platforms in favour of something much simpler...
 ---
 
 # App as Vehicle
