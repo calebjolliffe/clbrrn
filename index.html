@@ -1,60 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: Caleb Jolliffe
+---
 
-	<head>
+<h1><a href="https://beta.calebjolliffe.co">Caleb Jolliffe</a></h1>
 
-		<title>Caleb Jolliffe</title>
+<h2>Writing</h2>
 
-		<link rel="canonical" href="https://calebjolliffe.co">
-		<link rel="icon" href="/assets/images/clbrrn.ico" sizes="32x32">
-		<link rel="icon" href="/assets/images/clbrrn.svg" type="image/svg+xml">
-		<link rel="stylesheet" href="/assets/style.css" type="text/css">
-		<link rel="alternate" href="/assets/feed.xml" type="application/atom+xml" title="Caleb Jolliffe">
-		<link rel="alternate" href="/assets/feed.json" type="application/feed+json" title="Caleb Jolliffe">
+<ul>
+	{% for posts in site.post %}
+		<li><span>{{ post.stamp }}</span>&emsp;<a href="{{ post.permalink }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="An independent designer building ridiculously simple workflows and websites.">
-		<meta name="author" content="Caleb Jolliffe">
+<h2>Recent</h2>
 
-		<meta property="og:site_name" content="Caleb Jolliffe">
-		<meta property="og:url" content="https://calebjolliffe.co">
-		<meta property="og:title" content="Caleb Jolliffe">
-		<meta property="og:description" content="An independent designer building ridiculously simple workflows and websites.">
-		<meta property="og:image" content="/assets/images/index.png">
+<ul>
+	<li><span>01 · 24</span>&emsp;<a href="https://beta.calebjolliffe.co/">Project</a></li>
+	<li><span>01 · 24</span>&emsp;<a href="https://beta.calebjolliffe.co/">Project</a></li>
+</ul>
 
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:image" content="/assets/images/index.png">
-		<meta name="twitter:site" content="@calebjolliffe">
-		<meta name="twitter:creator" content="@calebjolliffe">
-		<meta name="twitter:title" content="Caleb Jolliffe">
-		<meta name="twitter:description" content="An independent designer building ridiculously simple workflows and websites.">
+<h2>Elsewhere</h2>
 
-	</head>
-
-	<body>
-
-		<h1><a href="https://beta.calebjolliffe.co">Caleb Jolliffe</a></h1>
-
-		<h2>Writing</h2>
-
-		<ul>
-			<li><span>01 · 24</span>&emsp;<a href="https://beta.calebjolliffe.co/disrespect-yourself-disrespect-everyone/">Disrespect yourself, disrespect everyone</a></li>
-			<li><span>01 · 24</span>&emsp;<a href="https://beta.calebjolliffe.co/app-as-vehicle/">App as Vehicle</a></li>
-		</ul>
-
-		<h2>Recent</h2>
-
-		<ul>
-			<li><span>01 · 24</span>&emsp;<a href="https://beta.calebjolliffe.co/">Project</a></li>
-			<li><span>01 · 24</span>&emsp;<a href="https://beta.calebjolliffe.co/">Project</a></li>
-		</ul>
-
-		<h2>Elsewhere</h2>
-
-		<ul>
-			<li><span>05 · 21</span>&emsp;<a href="https://beta.calebjolliffe.co/nubbb/">Design to Learn &mdash; NUBBB</a></li>
-		</ul>
-
-	</body>
-
-</html>
+<ul>
+	<li><span>05 · 21</span>&emsp;<a href="https://beta.calebjolliffe.co/nubbb/">Design to Learn &mdash; NUBBB</a></li>
+</ul>
