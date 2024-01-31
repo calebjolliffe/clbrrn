@@ -1,10 +1,16 @@
 ---
 layout: post
 title: Disrespect yourself, disrespect everyone
+author: Caleb Jolliffe
 stamp: 01 · 24
-permalink: /disrespect/
+permalink: /disrespect-yourself-disrespect-everyone/
+imagecard: disrespect.png
+handle: calebjolliffe
+xdesc: Lately I've been reflecting on self-deprecation and the effects it's had in my life. Based on my actions and what I've observed around me, I've come to a sobering realization...
 ---
+
 # Disrespect yourself, disrespect everyone
+
 25 January, 2024 · 1 minute read
 
 ---
