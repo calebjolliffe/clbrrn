@@ -1,30 +1,5 @@
 @font-face {
-	font-family:'TT Interphases Pro';
+	font-family:'IBM Plex Mono';
 	font-style:normal;
-	src:url(/assets/fonts/interphases.woff2) format(woff2);
-}
-
-:root {
-	background-color:#1E1E1E;
-	color:#E7E7D9;
-	font-family:'TT Interphases Pro', --apple-system, BlinkMacSystemFont, system-ui, "Inter", Helvetica, sans-serif;
-	font-size:14px;
-	font-weight:normal;
-	font-variant-numeric:slashed-zero;
-	line-height:1.3em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-size:1.5em;
-	font-weight:normal;
-}
-
-a {
-	color:#AFAC95;
-	text-decoration:none;
-}
-
-a:hover {
-	color:#E7E7D9;
-	text-decoration:none;
+	src:url(/assets/fonts/plex.woff2) format(woff2);
 }
