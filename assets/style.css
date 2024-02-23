@@ -1,4 +1,18 @@
+@font-face {
+	font-family:'Berkeley Mono Bold';
+	src:url('/assets/fonts/bm-bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family:'Berkeley Mono Regular';
+	src:url('/assets/fonts/bm-regular.woff2') format('woff2');
+}
+
 :root {
-	font-family:Monaco, Menlo, "Courier New", monospace;
+	font-family:'Berkeley Mono Regular';
 	font-size:14px;
+}
+
+h1, h2, h3, h4, h5, h6, b {
+	font-family:'Berkeley Mono Bold';
 }
