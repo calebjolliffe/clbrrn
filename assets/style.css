@@ -9,6 +9,8 @@
 }
 
 :root {
+	background-color:#F9F9F9;
+	color:#333333;
 	font-family:'Berkeley Mono Regular';
 	font-size:12px;
 	line-height:120%;
