@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Now
 author: Caleb Jolliffe
 permalink: /now/
