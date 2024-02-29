@@ -2,6 +2,7 @@
 layout: post
 title: Now
 author: Caleb Jolliffe
+read: 1
 permalink: /now/
 imagecard: now.png
 handle: calebjolliffe
