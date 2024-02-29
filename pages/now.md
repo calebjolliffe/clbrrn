@@ -17,3 +17,6 @@ Currently, I am:
 - → Turning my productivity system into a course
 
 *Last updated: 29 February 2024*
+
+### Further reading:
+- → [Derek Sivers, What is a "now page"?](https://nownownow.com/about)
