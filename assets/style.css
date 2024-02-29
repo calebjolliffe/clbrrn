@@ -26,9 +26,9 @@ a:hover {
 	opacity:60%;
 }
 
-blockquote, blockquote p, blockquote ul {
+blockquote {
 	margin-left:0;
-	padding-right:2%;
+	padding:2% 0 2% 4%;
 	border-left:1px solid #333333;
 }
 
