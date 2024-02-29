@@ -1,18 +1,12 @@
 ---
 layout: post
-title: Disrespect yourself, disrespect everyone
+title: Disrespect
 author: Caleb Jolliffe
-stamp: 01 · 24
-permalink: /disrespect-yourself-disrespect-everyone/
+stamp: 01-24
+permalink: /disrespect/
 imagecard: disrespect.png
 handle: calebjolliffe
 xdesc: Lately I've been reflecting on self-deprecation and the effects it's had in my life. Based on my actions and what I've observed around me, I've come to a sobering realization...
----
-
-# Disrespect yourself, disrespect everyone
-
-25 January, 2024 · 1 minute read
-
 ---
 
 Lately I've been reflecting on self-deprecation and the effects it's had in my life. Based on my actions and what I've observed around me, I've come to a sobering realization:
@@ -23,11 +17,11 @@ Throughout my adult life, I've struggled to take care of my physical and mental 
 
 My "simple" excuses reinforced negative beliefs about my body, identity, and capabilities. Worse yet, my excuses also told my partner things like:
 
-- "I am uncommitted to myself."
-- "I do not value myself."
-- " ___ is more important than my health."
-- "Becoming my best self is unimportant."
-- "It's acceptable to treat me in this way."
+- → "I am uncommitted to myself."
+- → "I do not value myself."
+- → " ___ is more important than my health."
+- → "Becoming my best self is unimportant."
+- → "It's acceptable to treat me in this way."
 
 It wasn't my intention, but that was what was on display for others—imagine how it got interpreted.
 
