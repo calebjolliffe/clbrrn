@@ -6,38 +6,60 @@
 		<title>{{ page.title }}</title>
 
 		<link rel="canonical" href="https://calebjolliffe.co">
-		<link rel="icon" href="https://calebjolliffe.co/assets/images/clbrrn.svg" type="image/svg+xml">
-		<link rel="stylesheet" href="https://beta.calebjolliffe.co/assets/style.css" type="text/css">
-		<link rel="alternate" href="https://calebjolliffe.co/assets/feed.xml" type="application/atom+rss" title="Caleb Jolliffe">
-		<link rel="alternate" href="https://calebjolliffe.co/assets/feed.json" type="application/feed+json" title="Caleb Jolliffe">
+		<link rel="icon" href="/assets/images/clbrrn.svg" type="image/svg+xml">
+		<link rel="stylesheet" href="/assets/style.css" type="text/css">
+		<link rel="stylesheet" href="/assets/grid.css" type="text/css">
+		<link rel="alternate" href="/assets/feed.xml" type="application/atom+rss" title="Caleb Jolliffe">
+		<link rel="alternate" href="/assets/feed.json" type="application/feed+json" title="Caleb Jolliffe">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="An independent designer building ridiculously simple workflows and websites.">
+		<meta name="description" content="An independent designer building ridiculously simple Internet tools.">
 		<meta name="author" content="Caleb Jolliffe">
 
 		<meta name="og:site_name" content="Caleb Jolliffe">
 		<meta name="og:url" content="https://calebjolliffe.co">
-		<meta name="og:title" content="Caleb Jolliffe">
-		<meta name="og:description" content="An independent designer building ridiculously simple workflows and websites.">
-		<meta name="og:image" content="https://calebjolliffe.co/assets/images/index.png">
+		<meta name="og:description" content="An independent designer building ridiculously simple Internet tools.">
+		<meta name="og:image" content="/assets/images/index.png">
 
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:image" content="https://calebjolliffe.co/assets/images/index.png">
+		<meta name="twitter:image" content="/assets/images/index.png">
 		<meta name="twitter:site" content="@calebjolliffe">
 		<meta name="twitter:creator" content="@calebjolliffe">
 		<meta name="twitter:title" content="Caleb Jolliffe">
-		<meta name="twitter:description" content="An independent designer building ridiculously simple workflows and websites.">
+		<meta name="twitter:description" content="An independent designer building ridiculously simple Internet tools.">
 
 	</head>
 
 	<body>
 
-		<span style="text-align:left;"><a href="https://beta.calebjolliffe.co">Caleb Jolliffe</a></span>
-		<span style="float:right; text-align:right;"><a href="https://digitalbeacon.co/report/calebjolliffe-co">CO2: 0.000g</a></span>
+		<r-grid columns=3>
 
-		<p>An independent designer. I value simplicity, functionality, and<br>drawing on midcentury computing to build ridiculously simple,<br>low-carbon workflows that save immense amounts of time.</p>
+			<r-cell span=2+1>
 
-		{{ content }}
+				<r-grid columns=2">
+
+					<r-cell span=1>
+						<a href="https://calebjolliffe.co">Caleb Jolliffe</a>
+					</r-cell>
+
+					<r-cell span=1 style="text-align:right;">
+						<a href="https://digitalbeacon.co/report/calebjolliffe-co" target="_blank">CO2: 0.000g</a>
+					</r-cell>
+
+				</r-grid>
+
+				<r-cell span=2+1>
+					<p>An independent designer. I enjoy building ridiculously simple tools for the Internet.</p>
+				</r-cell>
+
+				{{ content }}
+
+				<r-cell span=2+1 class="bottom">
+					<hr>
+					<a href="">RSS</a>&nbsp;&nbsp;<a href="mailto:calebjolliffe@proton.me">Mail</a>&nbsp;&nbsp;<a href="https://x.com/calebjolliffe">X</a>
+				</r-cell>
+				
+		</r-grid>
 
 	</body>
 
