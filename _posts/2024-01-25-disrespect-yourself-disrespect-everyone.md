@@ -3,6 +3,7 @@ layout: post
 title: Disrespect
 author: Caleb Jolliffe
 stamp: 01-24
+read: 1
 permalink: /disrespect/
 imagecard: disrespect.png
 handle: calebjolliffe
