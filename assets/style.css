@@ -28,8 +28,12 @@ a:hover {
 
 blockquote {
 	margin-left:0;
-	padding:2% 0 2% 4%;
+	padding:1% 0 1% 2%;
 	border-left:1px solid #333333;
+}
+
+hr {
+	border:1px solid #333333;
 }
 
 ul {
