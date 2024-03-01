@@ -32,6 +32,6 @@ I deserve respect, and I need to show it to myself. It's up to me to set the new
 
 If I want to be a good person to be around, it's on me to take the first steps.
 
-## Recommended Consumption
+## Further consuming:
 > - → [Van Neistat, Your tardy friends suck.](https://youtu.be/Hm4mr7jzSpQ?si=fS9_BKXyE_PrYDIs)
 > - → [Dry Creek Wrangler School, Control That Temper](https://youtu.be/CUrh306DSTY?si=QiAcfJhIDepKYCtJ)
