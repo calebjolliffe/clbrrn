@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, h6, p, b, small {
 	font-weight:normal;
 }
 
+p {
+	margin:2% 0 2% 0;
+}
+
 a, a:active, a:visited {
 	text-decoration:none;
 	color:inherit;
