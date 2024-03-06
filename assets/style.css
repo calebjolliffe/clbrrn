@@ -110,11 +110,12 @@ ul.posts {
         border-top:1px solid #333333;
         margin-top:2em;
         overflow:hidden;
+        line-height:1.5em;
     }
 
         .site .footer .contact {
             float:left;
-            margin-right:3em;
+            margin-right:3.5em;
         }
 
             .site .footer .contact a {
