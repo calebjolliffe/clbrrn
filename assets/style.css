@@ -71,7 +71,7 @@ ul.posts {
     }
 
     ul.posts span {
-        color:#999999;
+        color:#333333;
         font-size:100%;
     }
 
@@ -79,7 +79,7 @@ ul.posts {
 /* Main */
 .site {
     font-size:100%;
-    text-align:justify;
+    text-align:left;
     width:40em;
     margin:3em auto 2em auto;
     line-height:1.5em;
@@ -105,9 +105,9 @@ ul.posts {
     }
 
     .site .footer {
-        font-size:100%;
-        color:#999999;
-        border-top:1px solid #232323;
+        font-size:80%;
+        color:#333333;
+        border-top:1px solid #333333;
         margin-top:2em;
         overflow:hidden;
     }
