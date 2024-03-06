@@ -114,12 +114,12 @@ ul.posts {
 
         .site .footer .contact {
             float:left;
-            margin-right:4em;
+            margin-right:3em;
         }
 
             .site .footer .contact a {
                 color:#333333;
-                text-decoration:none;
+                text-decoration:underline;
             }
 
 
@@ -157,12 +157,4 @@ ul.posts {
 
     #post pre.terminal code {
         background-color:#333333;
-    }
-
-#related {
-    margin-top:2em;
-}
-
-    #related h2 {
-        margin-bottom:1em;
     }
