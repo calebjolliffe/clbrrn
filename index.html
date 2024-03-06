@@ -3,70 +3,36 @@ layout: default
 title: Caleb Jolliffe
 ---
 
-<r-cell span=2+1>
-	<p>An independent designer. I enjoy building ridiculously simple tools for the Internet.</p>
-</r-cell>
+<div id="home">
+    <p>
+        An independent designer. I enjoy building ridiculously simple tools for the Internet.
+    </p>
+    <h1>Writing</h1>
+    <ul class="posts">
+        {% for post in site.posts %}
+        <li>
+            <span>{{ post.date | date_to_string }}</span>
+            &bull;
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
 
-<r-cell span=2+1 class="section">
-	<h2>Writing<hr></h2>
-</r-cell>
+    <h1>Projects</h1>
+    <ul class="posts">
+        <li>
+            <span>2024</span>
+            &bull;
+            <a href="">ddsmpl</a>
+        </li>
+    </ul>
 
-<r-cell span=2+1 class="list">
-	<ul>
-		{% for post in site.posts %}
-		<li>
-			<a href="{{ post.url }}">
-				<span>{{ post.title }}</span>
-				<span style="float:right;">{{ post.stamp }}</span>
-			</a>
-		</li>
-		{% endfor %}
-	</ul>
-</r-cell>
-
-<r-cell span=2+1 class="section">
-	<h2>Projects<hr></h2>
-</r-cell>
-
-<r-cell span=2+1 class="list">
-	<ul>
-		<li>
-			<a href="" target="_blank">
-				<span>ddsmpl</span>
-				<span style="float:right;">2024</span>
-			</a>
-		</li>
-
-		<li>
-			<a href="" target="_blank">
-				<span>Atomic</span>
-				<span style="float:right;">2024</span>
-			</a>
-		</li>
-	</ul>
-</r-cell>
-
-<r-cell span=2+1 class="section">
-	<h2>More<hr></h2>
-</r-cell>
-
-<r-cell span=2+1 class="list">
-	<r-grid columns=2>
-		<r-cell span=1 class="list">
-			<ul>
-				<li><a href="/now">Now</a></li>
-				<li><a href="">Thing</a></li>
-				<li><a href="">Thing</a></li>
-				<li><a href="">Thing</a></li>
-			</ul>
-		</r-cell>
-		<r-cell span=1 class="list">
-			<ul>
-				<li><a href="">Thing</a></li>
-				<li><a href="">Thing</a></li>
-				<li><a href="">Thing</a></li>
-				<li><a href="">Thing</a></li>
-			</ul>
-		</r-cell>
-	</r-grid>
-</r-cell>
+    <h1>Elsewhere</h1>
+    <ul class="posts">
+        <li>
+            <span>2021</span>
+            &bull;
+            <a href="/nubbb">NUBBB, Design to Learn</a>
+        </li>
+    </ul>
+</div>

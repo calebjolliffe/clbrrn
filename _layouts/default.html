@@ -1,64 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <title>{{ page.title }}</title>
 
-	<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="An independent designer building ridiculously simple Internet tools.">
+	<meta name="author" content="Caleb Jolliffe">
 
-		<title>{{ page.title }}</title>
+	<meta name="og:site_name" content="Caleb Jolliffe">
+	<meta name="og:url" content="https://calebjolliffe.co">
+	<meta name="og:description" content="An independent designer building ridiculously simple Internet tools.">
+	<meta name="og:image" content="/assets/images/index.png">
 
-		<link rel="canonical" href="https://calebjolliffe.co">
-		<link rel="icon" href="/assets/images/clbrrn.svg" type="image/svg+xml">
-		<link rel="stylesheet" href="/assets/style.css" type="text/css">
-		<link rel="stylesheet" href="/assets/grid.css" type="text/css">
-		<link rel="alternate" href="/assets/feed.xml" type="application/atom+rss" title="Caleb Jolliffe">
-		<link rel="alternate" href="/assets/feed.json" type="application/feed+json" title="Caleb Jolliffe">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="/assets/images/index.png">
+	<meta name="twitter:site" content="@calebjolliffe">
+	<meta name="twitter:creator" content="@calebjolliffe">
+	<meta name="twitter:title" content="Caleb Jolliffe">
+	<meta name="twitter:description" content="An independent designer building ridiculously simple Internet tools.">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="An independent designer building ridiculously simple Internet tools.">
-		<meta name="author" content="Caleb Jolliffe">
+    <link rel="canonical" href="https://calebjolliffe.co">
+	<link rel="icon" href="/assets/images/clbrrn.svg" type="image/svg+xml">
+	<link rel="stylesheet" href="/assets/style.css" type="text/css">
+	<link rel="alternate" href="/assets/feed.xml" type="application/atom+rss" title="Caleb Jolliffe">
+	<link rel="alternate" href="/assets/feed.json" type="application/feed+json" title="Caleb Jolliffe">
+</head>
 
-		<meta name="og:site_name" content="Caleb Jolliffe">
-		<meta name="og:url" content="https://calebjolliffe.co">
-		<meta name="og:description" content="An independent designer building ridiculously simple Internet tools.">
-		<meta name="og:image" content="/assets/images/index.png">
+<body>
+    <div class="site">
+        <div class="title">
+            <span>
+                <a href="/">Caleb Jolliffe</a>
+            </span>
+            <span style="float:right;">
+                <a href="https://digitalbeacon.co/report/calebjolliffe-co" target="_blank">CO2: 0.000g</a>
+            </span>
+        </div>
 
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:image" content="/assets/images/index.png">
-		<meta name="twitter:site" content="@calebjolliffe">
-		<meta name="twitter:creator" content="@calebjolliffe">
-		<meta name="twitter:title" content="Caleb Jolliffe">
-		<meta name="twitter:description" content="An independent designer building ridiculously simple Internet tools.">
+        {{ content }}
 
-	</head>
-
-	<body>
-
-		<r-grid columns=3>
-
-			<r-cell span=2+1>
-
-				<r-grid columns=2>
-
-					<r-cell span=1>
-						<a href="https://calebjolliffe.co">Caleb Jolliffe</a>
-					</r-cell>
-
-					<r-cell span=1 style="text-align:right;">
-						<a href="https://digitalbeacon.co/report/calebjolliffe-co" target="_blank">CO2: 0.000g</a>
-					</r-cell>
-
-				</r-grid>
-
-				<r-cell span=row></r-cell>
-
-				{{ content }}
-
-				<r-cell span=2+1 class="bottom">
-					<hr>
-					<a href="">RSS</a>&nbsp;&nbsp;<a href="mailto:calebjolliffe@proton.me">Mail</a>&nbsp;&nbsp;<a href="https://x.com/calebjolliffe">X</a>
-				</r-cell>
-				
-		</r-grid>
-
-	</body>
-
+        <div class="footer">
+            <div class="contact">
+                <p>
+                    Caleb Jolliffe<br>
+                    calebjolliffe@proton.me<br>
+                </p>
+            </div>
+            <div class="contact">
+                <p>
+                    Get updates by <a href="">email</a>, <a href="">RSS</a>, or on <a href="https://x.com/calebjolliffe">X</a>.<br>
+                    Also consider <a href="">supporting my work</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
